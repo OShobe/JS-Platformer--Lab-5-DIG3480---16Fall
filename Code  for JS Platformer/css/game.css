@@ -1,10 +1,12 @@
-.background    { background: rgb(97, 97, 97);
+.background    { background: #4cbedf;
                  table-layout: fixed;
                  border-spacing: 0;   }
 .background td { padding: 0;          }
-.lava          { background: rgb(255, 100, 100); }
-.wall          { background: rgb(215, 215, 215); }
-.floater    { background: rbg(128, 0, 0);  }
+.lava          { background: #ff4156; }
+.wall          { background: #023f94;   }
+.floater  { background: #ffa06c; }
+.actor  { position: absolute;  }
+.player { background: #ff796a; }
 
 .game {
   overflow: hidden;
@@ -12,3 +14,8 @@
   max-height: 450px;
   position: relative;
 }
+
+/* color palette selected from 
+http://www.colourpod.com/post/151530809997/reef-submitted-by-zedetta
+
+*/
